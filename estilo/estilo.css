@@ -1,0 +1,175 @@
+:root {
+
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+body {
+    max-width: 100vw;
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: var(--violet);
+}
+
+main {
+    max-width: 100%;    
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    
+}
+
+figure {
+    
+    max-width: 100%;
+    
+    
+}
+
+figure img {
+    
+    width: 100%;
+}
+
+h1 {
+    max-width: 70%;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    
+    
+}
+
+article p {
+    max-width: 85%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+button {
+    
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 1rem;
+    width: 70%;
+    color: var(--violet);
+   
+}
+
+.icons__container {
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+.icons__container i {
+    color: #ffffff;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+}
+
+.attributtion {
+    background: var(--soft-magenta);
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Desktop */
+
+@media (min-width: 767px) {
+
+    body {
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: repeat;
+    background-color: var(--violet);
+    }
+
+
+    main {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:
+        
+    }   
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+        
+    }
+
+    section p {
+        text-align: justify;
+    }
+
+    header {
+        margin-right: auto;
+        margin-bottom: 2rem;
+        
+    }
+
+    h1 {
+        
+        line-height: 1.5;
+    }
+
+    article {
+        margin-top: 3rem;
+        max-width: 40%;
+        
+    }
+    
+    button {
+       width: 50%;
+       margin-right: 70%;
+    }
+
+   .icons__container {
+    width: 90%;    
+    display: flex;
+    justify-content: end;
+    
+   }
+
+   .attributtion {
+    width: 80%;
+    margin: auto;
+   }
+
+  
+    
+ 
+  }
